@@ -1,0 +1,323 @@
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAV */
+img { /* responsive image */
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    
+}
+
+ 
+/* HEADER */
+
+header h1{  
+    color: white;
+    font-size: 6vw ;
+    position: absolute;
+     top: 9%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px #b06832
+
+}
+
+header p{
+    color: white;
+    font-size: 1.6vw ;
+    position: absolute;
+    top: 18%;
+    left: 11%;
+    text-shadow: 2px 2px #000000
+    
+
+}
+
+header button {
+    text-align: center;
+    position: absolute;
+  
+      top: 41%;
+      left: 46%;
+      font-size: 24px;
+      padding: 2px 22px;
+ 
+    background-color: #e9370a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    
+    
+    
+}
+   
+
+  header button:hover{
+      background-color:#ff8566;
+      transition: 1s;
+  }
+
+
+
+
+  /* section2 */
+  ection.pricing {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+  }
+  
+  .pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+  
+  .pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
+
+  /*  section 3 */
+
+  .checked {
+    color: orange;
+  }
+    section .image{
+      border-radius: 50%;
+    }
+  
+
+
+
+ /*  media query  */
+
+ 
+   /*  small */
+
+@media only screen and (min-width: 360px)  {
+    
+  nav .form-control {
+    width: 50%;
+  } 
+
+  .bg1 { /* responsive image */
+    margin-top: 120px;
+    
+    }
+    header h1 {
+
+      top: 16%;
+      left: 50%;
+  
+  }
+
+  header p {
+
+    top: 18%;
+    left: 0px;
+    font-size: 15px;
+
+}
+
+header button {
+
+  top: 27%;
+  left: 38%;
+  font-size: 11px;
+  padding: 4px 13px;
+
+}
+ 
+
+
+
+
+   }
+
+ /*  small */
+ @media (min-width:375px) {
+
+  nav .form-control {
+    width: 50%;
+  } 
+
+  .bg1 { /* responsive image */
+    margin-top: 123px;
+    
+    }
+    header h1 {
+
+      top: 19%;
+      left: 50%;
+  
+  }
+
+  header p {
+
+    top: 22%;
+    left: 0px;
+    font-size: 15px;
+
+}
+
+header button {
+
+  top: 31%;
+left: 35%;
+font-size: 12px;
+padding: 2px 22px;
+
+}
+ 
+
+}
+   /*  medium */
+
+   @media (min-width:768px) {
+    
+    
+    .bg1 {
+
+      margin-top: 66px;
+  
+  }
+
+
+  header button {
+
+    top: 26%;
+    left: 45%;
+
+}
+
+header p {
+  top: 26%;
+  left: 0px;
+  font-size: 22px;
+}
+
+header button {
+  top: 36%;
+  left: 41%;
+  font-size: 24px;
+  padding: 2px 22px;
+}
+ 
+  }
+
+  /*  large */
+
+  @media (min-width:992px) {
+    .bg1 {
+
+      margin-top: 66px;
+  
+  }
+
+
+  header button {
+
+    top: 26%;
+    left: 45%;
+
+}
+
+header button {
+
+  top: 36%;
+  left: 41%;
+  font-size: 24px;
+  padding: 2px 22px;
+}
+
+  }
+
+  /*  extra large */
+
+  @media (min-width:1200px) {
+    
+ 
+    .bg1 {
+
+      margin-top: 67px;
+  
+  }
+
+  header h1 {
+
+    font-size: 7vw;
+    top: 19%;
+    left: 50%;
+
+}
+
+header p {
+
+   
+  font-size: 2.6vw;
+  top: 34%;
+  left: 0%;
+   
+
+}
+
+header button {
+  top: 50%;
+  left: 44%;
+  font-size: 29px;
+  padding: 2px 22px;
+}
+
+
+  }
